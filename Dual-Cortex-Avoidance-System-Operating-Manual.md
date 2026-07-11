@@ -1,6 +1,6 @@
 # Dual-Cortex Obstacle Avoidance System — Operating Manual
 
-**Comm Cortex v2.1.6 / Sensory Cortex v2.0.4**
+**Comm Cortex v2.1.8 / Sensory Cortex v2.0.5**
 Covers channel map, ceiling/floor capture, horizontal avoidance sensitivity, BLE calibration, and every runtime-tunable feature.
 
 ---
