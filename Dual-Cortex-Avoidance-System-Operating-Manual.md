@@ -41,7 +41,6 @@ RTH/failsafe: Flight Mode channel below **1200µs** = RTH active.
 
 ## 3. Verified Logic — Audit Summary
 
-I traced all three systems below through the actual code paths. Findings:
 
 | Feature | Status |
 |---|---|
@@ -49,7 +48,7 @@ I traced all three systems below through the actual code paths. Findings:
 | Floor set/capture | ✅ Correct, but note it's **knob-set**, not altitude-captured — see §4 |
 | Horizontal avoidance sensitivity | ✅ Correct — `scale` propagates via `ProximityCmd` to the Sensory Cortex's block thresholds, not locally in the TTE ramp (intentional split, not a bug) |
 | Optical-flow BLE calibration | ✅ **Fixed** — see §8.2 for the corrected workflow |
-| Version string at boot | ⚠️ Cosmetic only, reported previously (line 1890 says v2.1.4, should read v2.1.6) |
+| Version string at boot | ⚠️ Cosmetic only, SHOULD READ CURRENT VERSION
 
 ---
 
